@@ -3,7 +3,7 @@ from __future__ import annotations
 import os
 import streamlit as st
 
-from language_data import LANGUAGES, language_options, POPULAR, PROFICIENCY_LEVELS
+from tonguetie_language_data import LANGUAGES, language_options, POPULAR, PROFICIENCY_LEVELS
 from rag import retrieve_context
 from gemini_service import (
     ai_tutor,
